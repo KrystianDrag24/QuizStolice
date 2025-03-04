@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <!-- Przyciski wyboru kontynentu -->
+    <Button
+        android:id="@+id/btn_europe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Europa"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_asia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Azja"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_africa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afryka"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_australia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Australia i Oceania"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_north_america"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ameryka Północna"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_south_america"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ameryka Południowa"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/btn_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cały Świat"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Powrót do menu -->
+    <Button
+        android:id="@+id/btn_back_to_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powrót do menu" />
+</LinearLayout>
+

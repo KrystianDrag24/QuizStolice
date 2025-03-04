@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Flaga -->
+    <ImageView
+        android:id="@+id/flag_image"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/app_name" />
+
+    <!-- Nazwa kraju -->
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Państwo"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Stolica -->
+    <TextView
+        android:id="@+id/capital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stolica"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Licznik -->
+    <TextView
+        android:id="@+id/counter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/47"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Przyciski nawigacyjne -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Powrót -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cofnij"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Dalej -->
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dalej" />
+    </LinearLayout>
+
+    <!-- Powrót do menu -->
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powrót do menu"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

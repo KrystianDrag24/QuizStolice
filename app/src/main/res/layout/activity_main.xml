@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Nagłówek aplikacji -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stolice Państw"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Zdjęcie/logo aplikacji -->
+    <ImageView
+        android:id="@+id/app_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_world_map"
+        android:contentDescription="@string/map_image_description"
+        android:layout_marginBottom="24dp" />
+
+
+    <!-- Przycisk Nauka -->
+    <Button
+        android:id="@+id/btn_learning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nauka"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Przycisk Quiz -->
+    <Button
+        android:id="@+id/btn_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Przycisk Wyniki -->
+    <Button
+        android:id="@+id/btn_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyniki" />
+
+    <Switch
+        android:id="@+id/dark_mode_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tryb ciemny"
+        android:checked="false"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

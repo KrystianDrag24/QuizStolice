@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Flaga -->
+    <ImageView
+        android:id="@+id/flag_image"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/app_name" />
+
+
+    <!-- Nazwa kraju -->
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Państwo"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Licznik pytań -->
+    <TextView
+        android:id="@+id/counter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/10"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Licznik poprawnych odpowiedzi -->
+    <TextView
+        android:id="@+id/correct_counter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poprawne: 0"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Pole do wpisania odpowiedzi -->
+    <EditText
+        android:id="@+id/capital_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz stolicę"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:inputType="text|textCapSentences"
+        android:importantForAutofill="noExcludeDescendants" />
+
+    <!-- Wynik sprawdzenia odpowiedzi -->
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Przyciski -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Sprawdź -->
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sprawdź"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Dalej -->
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dalej" />
+    </LinearLayout>
+
+    <!-- Powrót do menu -->
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powrót do menu"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+<style name="Base.Theme.QuizStolice" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <item name="colorPrimary">@color/teal_200</item>
+    <item name="colorPrimaryVariant">@color/teal_700</item>
+    <item name="colorSecondary">@color/purple_200</item>
+    <item name="android:windowBackground">@color/black</item>
+</style>
+
+<style name="Theme.QuizStolice" parent="Base.Theme.QuizStolice">
+    <!-- Dostosowania dla trybu nocnego -->
+</style>
+</resources>
