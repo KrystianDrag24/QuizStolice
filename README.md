@@ -8,6 +8,7 @@ A mobile application for learning country capitals through interactive quizzes.
 🎨 **User-friendly UI** – Simple and intuitive interface built with Android Studio & Java.  
 
 ## Demo 🎥  
-Watch the demo below or [download the video](./demo.mp4) to see the app in action!  
+Download the demo video to see the app in action:  
 
-[![Watch Demo](https://img.shields.io/badge/Watch-Demo-blue?style=for-the-badge&logo=youtube)](./demo.mp4)
+[📥 Download Demo](./demo.mp4)
+
